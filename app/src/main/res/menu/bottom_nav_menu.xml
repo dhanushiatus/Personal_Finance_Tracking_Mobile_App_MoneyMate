@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_transactions"
+        android:icon="@drawable/transaction"
+        android:title="Transactions" />
+    <item
+        android:id="@+id/nav_budget"
+        android:icon="@drawable/budget"
+        android:title="Budget" />
+    <item
+        android:id="@+id/nav_chart"
+        android:icon="@drawable/chart"
+        android:title="Chart" />
+    <item
+        android:id="@+id/nav_reminder"
+        android:icon="@drawable/bell"
+        android:title="Reminders" />
+</menu>

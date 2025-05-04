@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base App Theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ToolbarTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textStyle">bold</item> <!-- Make text bold -->
+        <item name="android:textSize">20sp</item> <!-- Optional: adjust the font size -->
+    </style>
+
+    <!-- Dark Theme for Finance Tracker -->
+    <style name="Theme.FinanceTracker.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- App Colors -->
+        <item name="colorPrimary">#19BA51</item>
+        <item name="colorPrimaryVariant">#191414</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#121212</item>
+
+        <!-- Dark Backgrounds -->
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:colorBackground">#000000</item>
+
+        <!-- Optional: Text color -->
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
